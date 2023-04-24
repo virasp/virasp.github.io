@@ -1,0 +1,47 @@
+* {
+    font-family: 'Century Gothic';
+}
+
+.banner {
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/content.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.kartu:hover {
+    border-style: ridge;
+    border-color: white;   
+}
+
+.kartu img:hover {
+    transform: scale(1.2);
+}
+
+.embed-responsive{
+    height: 75vh;
+    background: linear-gradient(rgba(223, 140, 140, 0.2), rgba(255, 149, 149, 0.2));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+	margin-top: 130px;
+	border-width: 3px;
+}
+
+.footer-body {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
